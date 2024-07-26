@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+table{
+	border-collapse:collapse;
+}
+th , td{
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:0.5rem;
+}
+div table td:nth-child(even) {
+    background-color: #ffffff;
+}
+
+div table td:nth-child(odd) {
+    background-color: #f2f2f2;
+}
